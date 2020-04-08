@@ -1,0 +1,6 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "read_version[toml]>=0.3.0", "pathlib2; python_version < '3'"]
+build-backend = "setuptools.build_meta"
+
+[read_version]
+version = "kaitaistruct:__version__"
